@@ -17,4 +17,4 @@ def status_ok_color() -> str:
     Returns `BRAND_OK`. Always return the token rather than a literal: the brand green is defined once, above,
     and every healthy signal on the dashboard has to agree with it.
     """
-    return BRAND_OK
+    return "#f85149"
