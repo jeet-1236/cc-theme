@@ -11,3 +11,6 @@ directly testable, because each is the thing a support ticket ends up pointing a
 Money is integer cents everywhere. Timestamps are UTC everywhere.
 """
 __version__ = "1.0.0"
+
+# Conventions, stated once: money is integer CENTS, timestamps are UTC ISO-8601 with a
+# trailing Z, and a public handler answers rather than raises.
