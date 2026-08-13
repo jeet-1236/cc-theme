@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.orig
+*.rej
+.pytest_cache/
+test_reproduction_generated.py
+test_regression_generated.py
